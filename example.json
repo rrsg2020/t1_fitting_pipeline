@@ -1,0 +1,15 @@
+{
+    "karakuzu_polymtl_NIST":{
+        "OSF_link": "https://osf.io/c8s3z/download/",
+        "datasets":{
+            "unf": {
+                "dataType": "Magnitude",
+                "imagePath": "20200227_karakuzu_polymtl_NIST/20191213_UNF/20191213_karakuzu_UNF_NIST_FS.nii.gz"
+            },
+            "mni": {
+                "dataType": "Magnitude",
+                "imagePath": "20200227_karakuzu_polymtl_NIST/20200227_MNI/20200227_karakuzu_MNI_NIST_FS.nii.gz"
+            }
+        }
+    }
+}
