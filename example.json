@@ -17,6 +17,53 @@
             }
         }
     },
+    "siyuanhu_casewestern_NIST":{
+        "OSF_link": "https://osf.io/fa7p6/download/",
+        "datasets":{
+            "one": {
+                "dataType": "Magnitude",
+                "imagePath": "20200124_siyuanhu_casewestern_NIST/20200124_siyuanhu_casewestern_NIST.nii.gz"
+            }
+        }
+    },
+    "iveslevesque_muhc_mgh_NIST":{
+        "OSF_link": "https://osf.io/vtjpb/download/",
+        "datasets":{
+            "one": {
+                "dataType": "Magnitude",
+                "imagePath": "20200203_iveslevesque_muhc_mgh_NIST/20200203_iveslevesque_muhc_mgh_NIST.nii.gz"
+            }
+        }
+    },
+    "mrel_usc_NIST":{
+        "OSF_link": "https://osf.io/jwfep/download/",
+        "datasets":{
+            "Session1_MR1": {
+                "dataType": "Magnitude",
+                "imagePath": "20200204_mrel_usc_NIST/20200204_mrel_usc_GE3T_MR1_NIST.nii.gz"
+            },
+            "Session1_MR2": {
+                "dataType": "Magnitude",
+                "imagePath": "20200204_mrel_usc_NIST/20200204_mrel_usc_GE3T_MR2_NIST.nii.gz"
+            },
+            "Session2_MR1": {
+                "dataType": "Magnitude",
+                "imagePath": "20200204_mrel_usc_NIST/20200209_mrel_usc_GE3T_MR1_NIST.nii.gz"
+            },
+            "Session2_MR1_TR10sec": {
+                "dataType": "Magnitude",
+                "imagePath": "20200204_mrel_usc_NIST/20200209_mrel_usc_GE3T_MR1_NIST_TR10sec.nii.gz"
+            },
+            "Session2_MR2": {
+                "dataType": "Magnitude",
+                "imagePath": "20200204_mrel_usc_NIST/20200209_mrel_usc_GE3T_MR2_NIST.nii.gz"
+            },
+            "Session2_MR2_TR10sec": {
+                "dataType": "Magnitude",
+                "imagePath": "20200204_mrel_usc_NIST/20200209_mrel_usc_GE3T_MR2_NIST_TR10sec.nii.gz"
+            }
+        }
+    },
     "karakuzu_polymtl_NIST":{
         "OSF_link": "https://osf.io/c8s3z/download/",
         "datasets":{
