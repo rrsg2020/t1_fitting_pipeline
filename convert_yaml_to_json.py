@@ -5,10 +5,8 @@ def convert_yaml_to_json(dataType, imagePath):
 
     print("Converting YAML file " + imagePath + " to JSON.")
     print("Data type is: " + dataType)
-    if dataType=="Magnitude":
-        tmp1 = os.path.splitext(imagePath)[0]
-    else:
-        tmp1 = os.path.splitext(imagePath[0])[0]
+
+    tmp1 = os.path.splitext(imagePath)[0]
     
     image_path_stem = os.path.splitext(tmp1)[0]
 

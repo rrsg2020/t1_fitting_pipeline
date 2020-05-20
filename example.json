@@ -1,4 +1,22 @@
 {
+    "matthewgrechsollars_ICL_NIST":{
+        "OSF_link": "https://osf.io/67b8p/download/",
+        "datasets":{
+            "magnitude": {
+                "dataType": "Magnitude",
+                "imagePath": "20200121_matthewgrechsollars_ICL_NIST/20200121_matthewgrechsollars_ICL_NIST_Magnitude.nii.gz"
+            },
+            "complex": {
+                "dataType": "Complex",
+                "magnitude":{
+                    "imagePath": "20200121_matthewgrechsollars_ICL_NIST/20200121_matthewgrechsollars_ICL_NIST_Magnitude.nii.gz"
+                },
+                "phase":{
+                    "imagePath": "20200121_matthewgrechsollars_ICL_NIST/20200121_matthewgrechsollars_ICL_NIST_Phase.nii.gz"
+                }
+            }
+        }
+    },
     "karakuzu_polymtl_NIST":{
         "OSF_link": "https://osf.io/c8s3z/download/",
         "datasets":{
@@ -8,7 +26,7 @@
             },
             "mni": {
                 "dataType": "Magnitude",
-                "imagePath": "20200227_karakuzu_polymtl_NIST/20200227_MNI/20200227_karakuzu_MNI_NIST_FS.nii.gz"
+                "imagePath": "20200227_karakuzu_polymtl_NIST/20200227_MNI/20200227_karakuzu_mni_NIST_FS.nii.gz"
             }
         }
     }

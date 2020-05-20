@@ -13,6 +13,7 @@ nii_save(FitResults.T1,hdr,hdr.file_name);
 cd(old_dir)
 
 disp('Save complete!')
+disp(['T1 map output file: ', hdr.file_name])
 
 end
 
