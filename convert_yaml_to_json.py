@@ -1,7 +1,7 @@
 
 import os
 
-def convert_yaml_to_json(dataType, imagePath):
+def convert_yaml_to_json(dataType, imagePath, datasetName):
 
     print("Converting YAML file " + imagePath + " to JSON.")
     print("Data type is: " + dataType)
@@ -13,7 +13,7 @@ def convert_yaml_to_json(dataType, imagePath):
     # Convert YAML file to JSON
     import yaml
     import json
-    with open("data/" + str(image_path_stem) + ".yaml", 'r') as yaml_in, open("data/" + str(image_path_stem) + ".json", "w") as json_out:
+    with open(datasetName[0:-5] + "/" + str(image_path_stem) + ".yaml", 'r') as yaml_in, open(datasetName[0:-5] + "/" + str(image_path_stem) + ".json", "w") as json_out:
         yaml_object = yaml.safe_load(yaml_in) # yaml_object will be a list or a dict
         json.dump(yaml_object, json_out)
     
