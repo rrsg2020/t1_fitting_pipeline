@@ -36,3 +36,13 @@ These instructions were tested on a Macbook, and will likely be identical for Li
 * `jupyter notebook RRSG_T1_fitting.ipynb`
 * Choose the configuration file you want to use in the first cell
 * Run all cells
+
+## GIFs of T1 maps for datasets
+
+### 3T - Human
+
+![](./gifs/3T_human.gif)
+
+### 3T - NIST
+
+![](./gifs/3T_NIST.gif)
