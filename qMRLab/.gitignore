@@ -1,0 +1,71 @@
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk
+
+# =========================
+# Operating System Files
+# =========================
+
+# OSX
+# =========================
+
+.DS_Store
+.AppleDouble
+.LSOverride
+*~
+
+# Thumbnails
+._*
+
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# qMRLab results
+*.asv
+Demo.mat
+SPGR/Parameters/NewProtocol.mat
+Data/SPGR_demo/flipdata.m
+FitResults*
+FitTempResults*
+SimResults*
+MTSAT/interface.jpg
+qMRLab.prj
+
+# Files created by the documentation
+docs/build/*
+External/Faddeeva_MATLAB/Faddeeva.o
+docs/.idea
+*.pyc
+Data
+
+# Temporary folder
+tmp/
+
+# Coveralls.io reports
+reports/
+*coverage*
+docs/source/.doctrees
+External/AMICO/AMICO_matlab/exports/
